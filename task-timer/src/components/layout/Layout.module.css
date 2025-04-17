@@ -5,10 +5,9 @@
 }
 
 .appMain {
-  flex: 1;
-  overflow: hidden;
+  display: grid;
+  place-items: center;
 }
-
 .appFooter {
   background-color: #333;
   color: #fff;
