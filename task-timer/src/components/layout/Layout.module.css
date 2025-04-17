@@ -1,0 +1,23 @@
+.appLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.appMain {
+  flex: 1;
+  overflow: hidden;
+}
+
+.appFooter {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .app-header,
+  .app-footer {
+    padding: 0.5rem;
+  }
+}
