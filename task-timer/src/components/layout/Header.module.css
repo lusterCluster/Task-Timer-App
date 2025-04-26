@@ -1,23 +1,17 @@
-.appHeader {
-  background-color: #19171c;
-  width: 34px;
-  position: fixed;
-  top: 0;   
-  left: 0;
-  height: 100%;
-  color: #fff;
-  padding: 1rem;
-}
 .nav{
     display: flex;    
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column;    
     align-items: center;
+    background-color: #19171c;
+    width: 34px;
+    position: fixed;
+    top: 0;   
+    left: 0;
+    height: 100%;
+    color: #fff;
+    padding: 68px 8px 0 8px;
+    gap: 1rem;
     
-    @media (max-width: 600px) {
-        flex-direction: column;
-        gap: 1rem;
-    }
 }
 .navItem {
     display: flex;
@@ -30,6 +24,32 @@
     transition: color 0.3s ease;
 }
 .navItem:hover {
-    color: #6e03fc;
+    color: #b1a4e8;
     
+}
+
+.navItem.active {
+    color: #6e03fc;
+}
+.navItem.active:hover {
+    color: #6e03fc;
+}
+.logo{
+    margin-left: 21px;
+}
+.appBar{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+   justify-content: space-between;
+   padding-left: 50px;     
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    top:0;
+    margin-bottom: 13px;   
+    height: 55px;
+    background-color: #19171c;
+
 }
